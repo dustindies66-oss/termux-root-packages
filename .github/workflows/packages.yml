@@ -160,7 +160,7 @@ jobs:
         GITHUB_SHA=${{ github.sha }}
         APTLY_API_AUTH=${{ secrets.APTLY_API_AUTH }}
 
-        source termux-packages/scripts/aptly_api.sh
+        source scripts/aptly_api.sh
 
         for archive in termux-packages-*/*.tar; do
           tar xf "$archive"
@@ -202,7 +202,7 @@ jobs:
         GITHUB_SHA=${{ github.sha }}
         APTLY_API_AUTH=${{ secrets.APTLY_API_AUTH }}
 
-        source termux-packages/scripts/aptly_api.sh
+        source scripts/aptly_api.sh
 
         for archive in termux-packages-*/*.tar; do
           tar xf "$archive"
