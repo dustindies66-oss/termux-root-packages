@@ -160,7 +160,8 @@ jobs:
         GITHUB_SHA=${{ github.sha }}
         APTLY_API_AUTH=${{ secrets.APTLY_API_AUTH }}
         ls -l
-        pwd
+        ls -l termux-packages
+        ls -l termux-packages/scripts
         source scripts/aptly_api.sh
 
         for archive in termux-packages-*/*.tar; do
