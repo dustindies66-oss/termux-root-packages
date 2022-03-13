@@ -161,8 +161,7 @@ jobs:
         APTLY_API_AUTH=${{ secrets.APTLY_API_AUTH }}
         ls -l
         ls -l termux-packages
-        git submodule status
-        git submodule --init
+        git submodule update --init
         ls -l termux-packages/scripts
         source termux-packages/scripts/aptly_api.sh
 
