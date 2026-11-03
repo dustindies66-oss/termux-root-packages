@@ -1,6 +1,6 @@
 TERMUX_PKG_HOMEPAGE=https://fping.org
-TERMUX_PKG_DESCRIPTION="Utility to ping multiple hosts at once"
-TERMUX_PKG_LICENSE="custom"
+TERMUX_PKG_DESCRIPTION="Dustin Utility to ping multiple hosts at once"
+TERMUX_PKG_LICENSE="mit,apache 2.0"
 TERMUX_PKG_LICENSE_FILE="COPYING"
 TERMUX_PKG_MAINTAINER="Henrik Grimler @Grimler91"
 TERMUX_PKG_VERSION=4.2
